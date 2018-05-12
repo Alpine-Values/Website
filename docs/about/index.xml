@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About me on Alpine Values</title>
-    <link>http://www.alpine-values.com/about/</link>
+    <link>https://alpine-values.github.io/portal/about/</link>
     <description>Recent content in About me on Alpine Values</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Nov 2016 21:05:33 +0530</lastBuildDate>
     
-	<atom:link href="http://www.alpine-values.com/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alpine-values.github.io/portal/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

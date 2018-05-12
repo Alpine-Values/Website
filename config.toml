@@ -1,4 +1,4 @@
-baseURL = "http://www.alpine-values.com/"
+baseURL = "https://alpine-values.github.io/portal/"
 publishDir = "docs"
 disqusShortname = ""
 googleAnalytics = ""
