@@ -1,4 +1,5 @@
 baseURL = "http://www.alpine-values.com/"
+publishDir = "docs"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
