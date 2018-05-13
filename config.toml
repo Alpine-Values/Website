@@ -1,9 +1,8 @@
 baseURL = "localhost"
-#baseURL = "https://alpine-values.github.io/portal/"
-publishDir = "docs"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
+publishDir = "docs"
 theme = "thomasmichaeler-theme"
 title = "Alpine Values"
 [params]
