@@ -67,6 +67,12 @@ ol, ul {
 .content-column-content {
   padding: 0 20px 20px;
 }
+@media (min-width: 1200px) {
+  .content-column-content {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 @media (min-width: 1400px) {
   .content-column-content {
     padding-left: 140px;

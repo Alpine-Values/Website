@@ -1,4 +1,5 @@
-baseURL = "https://alpine-values.github.io/portal/"
+#baseURL = "https://alpine-values.github.io/portal/"
+baseURL = "localhost"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
