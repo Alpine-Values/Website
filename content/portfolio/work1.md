@@ -29,8 +29,8 @@ The Big Oxmox advised her not to do so, because there were thousands of bad Comm
 
 When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then
 
-![](/uploads/2018/05/13/trifold.jpg)
+![ggg](/uploads/2018/05/13/trifold.jpg "ggg")
 
-![](/uploads/2018/05/13/trifold.jpg)![](/uploads/2018/05/13/trifold.jpg)
+![alt te](/uploads/2018/05/13/trifold.jpg "TITL second")![Alt Text](/uploads/2018/05/13/trifold.jpg "Test Tile")
 
-Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom. 
+Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom.
