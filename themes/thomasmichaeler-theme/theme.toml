@@ -13,10 +13,3 @@ min_version = 0.1
 
 # If porting an existing theme
 [original]
-  name = "Creative portfolio"
-  homepage = "https://github.com/kishaningithub/hugo-creative-portfolio-theme"
-  license = "MIT"
-  licenselink = "https://github.com/kishaningithub/hugo-creative-portfolio-theme/blob/master/LICENSE"
-  description = "Port of the creative portfolio theme"
-  homepage = "https://github.com/kishaningithub/hugo-creative-portfolio-theme"
-  min_version = 0.20

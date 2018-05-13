@@ -1,4 +1,4 @@
-<div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+<div id="sidebar" class="column is-one-quarter is-hidden-mobile">
   <div class="sidebar-content">
     <h1 class="sidebar-heading"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
     {{ range .Site.Params.sidebarAbout }}
@@ -7,18 +7,8 @@
     <ul class="sidebar-menu">
       {{ $url := .Site.BaseURL }}
       {{ range .Site.Params.navlinks }}
-        <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
+        <li><a href="{{ $url }}{{ .url }}"><i class="material-icons">keyboard_arrow_right</i> {{ .name }}</a></li>
       {{ end }}
     </ul>
-    {{ partial "social_buttons_in_sidebar.html" . }}
-
-    <div class="copyright">
-      <p class="credit">
-        {{ with .Site.Params.copyright }}
-          {{ . | safeHTML }}
-        {{ end }}
-        {{ partial "attribution.html" . }}
-      </p>
-    </div>
   </div>
 </div>

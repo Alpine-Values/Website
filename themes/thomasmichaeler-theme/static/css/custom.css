@@ -1,1 +1,217 @@
-/* your styles go here */
+/* color */
+/*
+
+Stormy: #494E6B 
+Cloud: #98878F 
+Sunset: #985E6D 
+Evening: #192231
+
+*/
+
+
+
+/* general */
+
+body {
+  background: #f2f2f2;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000000;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+p {
+  margin: 0 0 24px;
+  font-size: 14px;
+}
+
+
+a:link, a:visited {
+  color: #494E6B;
+}
+
+a:hover {
+  color: #192231;
+}
+
+a:active {
+  font-weight: bold;
+}
+
+
+
+
+/* components */
+#sidebar {
+  padding-top: 55px;
+}
+
+#sidebar.is-hidden-tablet {
+  margin-left: 36px;
+  margin-right: 36px;
+  padding-bottom: 0px; 
+}
+
+.sidebar-content {
+  position: fixed;
+  padding-left: 35px;
+  padding-right: 20px;
+}
+
+.sidebar-heading {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.sidebar-heading a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+}
+
+.sidebar-p {
+  color: #98878F;
+}
+
+.sidebar-menu a .material-icons {
+  font-size: 14px;
+  color: #192231;
+}
+.sidebar-menu a:hover .material-icons {
+  color: #985E6D;
+}
+
+
+#portfolio {
+  padding-top: 43px;
+}
+
+.masonry-item {
+  box-sizing: border-box;
+}
+
+.card {
+  transition: all 0.2s ease-out;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.card h4 a {
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+}
+
+.card p {
+  color: #98878F;
+}
+
+.card .card-hover-text-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 15px 20px 15px;
+  opacity: 0;
+  transition: all 0.2s ease-out;
+  color: #98878F;
+}
+.box-masonry .card-hover-text-header p {
+  font-size: 14px;
+}
+.box-masonry .box-masonry-hover-text-header h4 a {
+  color: #555555;
+}
+.card:hover {
+  box-shadow: 0 0 5px #999;
+}
+.card:hover .card-hover-text-header {
+  opacity: 1;
+}
+.card:hover .card-hover-center {
+  opacity: 1;
+}
+.card:hover .card-image .with-hover-overlay:before {
+  opacity: 0.8;
+}
+.card:hover .card-image .with-hover-icon:after {
+  opacity: 0.7;
+}
+.card .card-image {
+  display: block;
+  position: relative;
+  min-height: 100px;
+  background: #ccc;
+}
+.card .card-image .with-hover-overlay:before {
+  display: block;
+  position: absolute;
+  content: " ";
+  background: #fff;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.2s ease-out;
+}
+.card .card-image .with-hover-icon:after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  opacity: 0;
+  transition: all 0.2s ease-out;
+  content: '\003e';
+  text-align: center;
+  font-size: 50px;
+  color: #555555;
+}
+.card .card-image:hover {
+  text-decoration: none;
+}
