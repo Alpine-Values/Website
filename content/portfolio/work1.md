@@ -33,4 +33,4 @@ When she reached the first hills of the Italic Mountains, she had a last view ba
 
 ![](/uploads/2018/05/13/trifold.jpg)![](/uploads/2018/05/13/trifold.jpg)
 
-Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom 
+Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom Some more text at the bottom. 
