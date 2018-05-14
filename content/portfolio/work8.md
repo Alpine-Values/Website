@@ -1,8 +1,8 @@
 +++
 date = "2016-11-05T19:59:22+05:30"
-image = "img/portfolio/ipad-air-2.jpg"
+image = "/uploads/2018/05/14/640A6548.jpg"
 showonlyimage = false
-title = "Name of the work 8"
+title = "König Anger"
 weight = 8
 
 +++
