@@ -1,9 +1,5 @@
 masonry();
 $(function () {
-    offCanvas();
-    lightbox();
-    carousels();
-    utils();
     highlightCurrentPage();
     makeImagesResponsive();
 });
