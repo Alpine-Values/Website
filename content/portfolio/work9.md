@@ -2,7 +2,7 @@
 date = "2016-11-05T20:02:19+05:30"
 image = "/uploads/2018/05/14/1.JPG"
 showonlyimage = false
-title = "Item with image"
+title = "Radelsee"
 weight = 9
 
 +++
