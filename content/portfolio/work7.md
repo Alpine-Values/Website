@@ -1,8 +1,8 @@
 +++
 date = "2016-11-05T19:57:40+05:30"
-image = "img/portfolio/label-clothes.jpg"
+image = "/uploads/2018/05/14/DSC_1298 bearbeitet.jpg"
 showonlyimage = false
-title = "Name of the work 7"
+title = "Erweiterung Secession"
 weight = 7
 
 +++
