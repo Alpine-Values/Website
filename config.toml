@@ -11,15 +11,9 @@ copyright = "&copy;2016 Markus Töll"
 description = "Alpine Values"
 email = "hi@thomasmichaeler.com"
 sidebarabout = ["Hi, I am Markus."]
-[params.social]
-email = "email@example.com"
-facebook = "full page or profile url in facebook"
-instagram = "full profile url in instagram"
-linkedin = "full profile url in linkedin"
-twitter = "full profile url in twitter"
 [[params.navlinks]]
 home = true
-name = "Home"
+name = "{Portfolio}"
 url = "portfolio/"
 [[params.navlinks]]
 name = "About"
