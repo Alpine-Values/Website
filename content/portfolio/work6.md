@@ -1,8 +1,8 @@
 +++
 date = "2016-11-05T19:56:17+05:30"
-image = ""
+image = "/uploads/2018/05/14/DSC_1296 Kopie.jpg"
 showonlyimage = false
-title = "Name of the work 6"
+title = "Stadt & Hof"
 weight = 6
 
 +++
