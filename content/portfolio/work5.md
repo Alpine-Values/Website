@@ -1,8 +1,8 @@
 +++
 date = "2016-11-05T19:53:42+05:30"
-image = "img/portfolio/business-card.jpg"
-showonlyimage = true
-title = "Name of the work 5"
+image = "/uploads/2018/05/14/DSC_7122.jpg"
+showonlyimage = false
+title = "Kulinarium Pozzuoli"
 weight = 5
 
 +++
