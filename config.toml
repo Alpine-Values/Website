@@ -1,5 +1,4 @@
 baseURL = "http://alpinevalues.netlify.com/"
-#baseURL = "localhost"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
@@ -13,7 +12,7 @@ email = "hi@thomasmichaeler.com"
 sidebarabout = ["Hi, I am Markus."]
 [[params.navlinks]]
 home = true
-name = "{Portfolio}"
+name = "Portfolio"
 url = "portfolio/"
 [[params.navlinks]]
 name = "About"
