@@ -3,7 +3,7 @@ date = "2016-11-05T19:56:17+05:30"
 image = "/uploads/2018/05/14/DSC_1296 Kopie.jpg"
 showonlyimage = false
 title = "Stadt & Hof"
-weight = 6
+weight = ""
 
 +++
 Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
