@@ -1,6 +1,6 @@
 +++
 date = "2016-11-05T20:22:08+05:30"
-image = "img/portfolio/trifold.jpg"
+image = "/uploads/2018/05/14/DSCF3787.jpg"
 showonlyimage = true
 title = "Item with image"
 weight = 10
