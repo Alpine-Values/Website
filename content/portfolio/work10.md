@@ -2,7 +2,7 @@
 date = "2016-11-05T20:22:08+05:30"
 image = "/uploads/2018/05/14/DSCF3787.jpg"
 showonlyimage = true
-title = "Item with image"
+title = "Hochfeiler"
 weight = 10
 
 +++
