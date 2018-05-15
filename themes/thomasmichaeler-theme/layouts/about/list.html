@@ -5,7 +5,7 @@
        <h1>{{ .Title }}</h1>
        {{ .Content }}
        <h3>Contact me</h3>
-        <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ . }}">
+        <form id="contact-form" class="contact-form form" method="post" action="https://formspree.io/{{ .Site.Params.email }}">
         <div class="field">
           <label class="label">Name</label>
           <div class="control">

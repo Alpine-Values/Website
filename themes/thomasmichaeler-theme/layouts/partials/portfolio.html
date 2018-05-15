@@ -1,8 +1,8 @@
 {{ partial "mobile_nav_toggle.html" . }}
   <div id="portfolio" class="column is-three-quarters is-four-fifths-widescreen">
     <div class="portfolio-container">
-      {{ range .Data.Pages }}
-          <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen masonry-item">
+      {{ range .Data.Pages.ByDate.Reverse }}
+          <div class="column is-half-tablet is-one-third-desktop is-one-quarter-widescreen masonry-item {{ .Type }}">
               <div class="card">
                   {{ if and (isset .Params "image") .Params.image }}
                     <div class="card-image">

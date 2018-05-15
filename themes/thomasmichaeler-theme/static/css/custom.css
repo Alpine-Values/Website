@@ -7,7 +7,7 @@ Teal        #08708A
 Tomato      #D73A31 
 Hunter      #032B2F
 Gray        #7E7F77
-#Dark        #3F403C
+#Dark       #3F403C
 
 
 */
@@ -16,9 +16,10 @@ Gray        #7E7F77
 
 /* general */
 
-body {
+html, body {
   background: #F2F2F2;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  min-height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,8 +50,9 @@ a:hover {
   color: #08708A;
 }
 
-a:active {
+a:active, a.active {
   font-weight: bold;
+  color: #08708A;
 }
 
 ol, ul {
@@ -78,6 +80,10 @@ ol, ul {
     padding-left: 140px;
     padding-right: 140px;
   }
+}
+.content-column-content .post-masonry a {
+  display: inline-block;
+  text-align: center;
 }
 .content-column-content p.lead {
   color: #08708A;
@@ -118,7 +124,7 @@ blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
 #sidebar.is-hidden-tablet {
   margin-left: 36px;
   margin-right: 36px;
-  padding-bottom: 0px; 
+  padding-bottom: 55px;
 }
 
 .sidebar-content {
@@ -159,6 +165,15 @@ blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
   color: #08708A;
 }
 
+.sidebar-footer {
+  position: fixed;
+  left: 35px;
+  bottom: 35px;
+  width: 150px;
+  font-size: 12px;
+  color: #D0D3C5;
+}
+
 
 /* about */
 #about {
@@ -176,6 +191,14 @@ blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
 
 #contact-form button:hover {
   background-color: #08708A;
+}
+
+/* home */
+#home {
+  height: 100vh;
+  margin-top: .75rem;
+  background: url(/img/mountain-photo.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 

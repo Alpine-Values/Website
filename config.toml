@@ -6,12 +6,15 @@ publishDir = "docs"
 theme = "thomasmichaeler-theme"
 title = "Alpine Values"
 [params]
-copyright = "&copy;2016 Markus Töll"
+copyright = "© 2016 Markus Töll"
 description = "Alpine Values"
 email = "hi@thomasmichaeler.com"
 sidebarabout = ["Hi, I am Markus."]
 [[params.navlinks]]
 home = true
+name = "Home"
+url = "home/"
+[[params.navlinks]]
 name = "Portfolio"
 url = "portfolio/"
 [[params.navlinks]]
