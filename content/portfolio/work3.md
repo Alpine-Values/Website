@@ -3,6 +3,7 @@ date = "2016-11-05T19:44:32+05:30"
 image = "img/portfolio/gravity-paper.jpg"
 showonlyimage = false
 title = "Name of the work 3"
+type = "inspiration"
 weight = 2
 
 +++
