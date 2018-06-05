@@ -2,7 +2,7 @@
 /*
 
 Stone Wash  #D0D3C5 
-Cerulean    #56B1BF 
+Cerulean    #56B1BF
 Teal        #08708A 
 Tomato      #D73A31 
 Hunter      #032B2F
@@ -81,7 +81,7 @@ ol, ul {
     padding-right: 140px;
   }
 }
-.content-column-content .post-masonry a {
+.content-column-content .content-post a {
   display: inline-block;
   text-align: center;
 }
@@ -205,16 +205,39 @@ blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
 /* portfolio */
 #portfolio {
   padding-top: 43px;
+  padding-bottom: 43px;
 }
 
-.masonry-item {
-  box-sizing: border-box;
+.portfolio-container {
+  position: relative;
+}
+
+.item {
+  position: absolute;
+  display: block;
+}
+
+.item.muuri-item-hidden {
+  z-index: 0;
+}
+
+.item .card-filter {
+  
+}
+
+.item .card-filter a {
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .card {
   transition: all 0.2s ease-out;
   overflow: hidden;
   text-overflow: ellipsis;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .card h4 {
@@ -261,8 +284,27 @@ blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
   display: block;
   position: relative;
   min-height: 100px;
-  background: #ccc;
 }
+.card .card-image:before {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 0.2s ease-out;
+  content: '\003e';
+  text-align: center;
+  font-size: 50px;
+  color: #EFF7F9;
+}
+
+.item:nth-child(5n) .card .card-image { background: #56B1BF; }
+.item:nth-child(5n+1) .card .card-image { background: #74BFCA; }
+.item:nth-child(5n+2) .card .card-image { background: #93CDD6; }
+.item:nth-child(5n+3) .card .card-image { background: #B2DBE1; }
+.item:nth-child(5n+4) .card .card-image { background: #D0E9ED; } 
+
 .card .card-image .with-hover-overlay:before {
   display: block;
   position: absolute;
@@ -291,4 +333,8 @@ blockquote ol:last-child, blockquote p:last-child, blockquote ul:last-child {
 }
 .card .card-image:hover {
   text-decoration: none;
+}
+.card .card-image img {
+  opacity: 0;
+  transition: all 0.5s ease;
 }
