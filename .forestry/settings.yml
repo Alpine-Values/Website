@@ -4,7 +4,7 @@ auto_deploy: false
 admin_path: ''
 webhook_url: ''
 sections:
-  portfolio:
+  content/portfolio:
     default_front_matter_template: portfolio
 upload_dir: static/uploads
 public_path: "/uploads"
