@@ -4,8 +4,21 @@ auto_deploy: false
 admin_path: ''
 webhook_url: ''
 sections:
-  content/portfolio:
-    default_front_matter_template: portfolio
+- type: directory
+  path: content/home
+  label: Home
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/portfolio
+  label: Portfolio
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/about
+  label: About
+  create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
