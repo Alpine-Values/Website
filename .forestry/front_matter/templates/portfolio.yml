@@ -40,3 +40,4 @@ fields:
   default: true
 pages:
 - content/portfolio/Test.md
+- content/portfolio/test.md
