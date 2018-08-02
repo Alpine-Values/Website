@@ -4,5 +4,8 @@ draft = true
 image = ""
 showonlyimage = false
 title = "Test"
+type = ""
+weight = ""
 
 +++
+Test
