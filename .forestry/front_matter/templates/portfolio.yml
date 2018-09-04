@@ -38,5 +38,3 @@ fields:
   type: boolean
   hidden: false
   default: true
-pages:
-- content/portfolio/Test.md
