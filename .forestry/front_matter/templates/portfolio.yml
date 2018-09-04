@@ -38,3 +38,5 @@ fields:
   type: boolean
   hidden: false
   default: true
+pages:
+- content/portfolio/vom-handwerk-zum-kunstwerk.md
