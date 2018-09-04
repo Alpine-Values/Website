@@ -1,6 +1,5 @@
 +++
 date = "2018-09-04T21:36:04+02:00"
-draft = true
 image = "/uploads/2018/09/04/_DSF3669.JPG"
 showonlyimage = false
 title = "Vom Handwerk zum Kunstwerk"
