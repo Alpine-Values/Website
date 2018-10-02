@@ -1,4 +1,4 @@
-baseURL = "http://alpinevalues.netlify.com/"
+baseURL = "https://alpinevalues.netlify.com/"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
